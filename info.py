@@ -5,8 +5,8 @@ id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'Rs_link_bots')
-API_ID = int(environ.get('API_ID', '')) ##api id fot t.me.org
-API_HASH = environ.get('API_HASH', '') #api hash fot t.me.org
+API_ID = int(environ.get('API_ID', '25976192')) ##api id fot t.me.org
+API_HASH = environ.get('API_HASH', '8ba23141980539b4896e5adbc4ffd2e2') #api hash fot t.me.org
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
@@ -27,7 +27,7 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '')) #LOG channel id
 ADMINS = [6621572366] #replace with your ID
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "") #mongo DB URL
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://RAHAT1132:RAHAT11a@rahat.txn4lkk.mongodb.net/?appName=Rahat") #mongo DB URL
 DATABASE_NAME = environ.get('DATABASE_NAME', "rs_fllink_bot")
 
 # Shortlink Info
