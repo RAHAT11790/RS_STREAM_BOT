@@ -23,7 +23,7 @@ else:
 URL = environ.get("URL", "") #hosting site URL
 
 # Admins, Channels & Users
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '')) #LOG channel id
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003504080537')) #LOG channel id
 ADMINS = [6621572366] #replace with your ID
 
 # MongoDB information
