@@ -1,0 +1,21 @@
+app = "rs-stream-bot"
+primary_region = "ams"
+
+[http_service]
+auto_start_machines = true
+auto_stop_machines = false
+force_https = true
+internal_port = 8080
+min_machines_running = 1
+processes = ["app"]
+
+[[restart]]
+policy = "always"
+processes = ["app"]
+retries = 10
+
+[[vm]]
+cpu_kind = "shared"
+cpus = 1
+memory = "1gb"
+memory_mb = 1024
